@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44890" started-at="2016-05-24T19:42:41Z" finished-at="2016-05-24T19:43:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44890" started-at="2016-05-24T19:42:41Z" finished-at="2016-05-24T19:43:26Z">
+      <class name="resultOfSearchTest.ActorNameTestSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@1774679]" name="setup" is-config="true" duration-ms="22766" started-at="2016-05-24T22:42:41Z" finished-at="2016-05-24T22:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkAuthorName()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@1774679]" name="checkAuthorName" duration-ms="17422" started-at="2016-05-24T22:43:03Z" finished-at="2016-05-24T22:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthorName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@1774679]" name="tearDown" is-config="true" duration-ms="4656" started-at="2016-05-24T22:43:21Z" finished-at="2016-05-24T22:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- resultOfSearchTest.ActorNameTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
