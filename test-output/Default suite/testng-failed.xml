@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="actoravatar" value="avatar.png"/>
+  <parameter name="actorname" value="Sam Worthington"/>
+  <parameter name="browserName" value="firefox"/>
+  <parameter name="film" value="avatar"/>
   <test verbose="2" name="Default test">
     <classes>
       <class name="pageObject.TestBase"/>

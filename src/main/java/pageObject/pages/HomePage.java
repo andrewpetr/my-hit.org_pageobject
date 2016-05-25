@@ -25,8 +25,8 @@ public class HomePage {
 		searchBox.sendKeys(movie);
 	}
 	
-	public ResultOfSearchPage searchMovie() {
-		searchBoxForMovie("avatar");
+	public ResultOfSearchPage searchMovie(String film) {
+		searchBoxForMovie(film);
 		searchButton.click();
 		return PageFactory.initElements(webDriver, ResultOfSearchPage.class);
 		

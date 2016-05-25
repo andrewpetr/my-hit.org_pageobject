@@ -2,20 +2,44 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44890" started-at="2016-05-24T19:42:41Z" finished-at="2016-05-24T19:43:26Z">
+  <suite name="Default suite" duration-ms="110766" started-at="2016-05-25T20:56:06Z" finished-at="2016-05-25T20:57:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44890" started-at="2016-05-24T19:42:41Z" finished-at="2016-05-24T19:43:26Z">
+    <test name="Default test" duration-ms="110766" started-at="2016-05-25T20:56:06Z" finished-at="2016-05-25T20:57:57Z">
       <class name="resultOfSearchTest.ActorNameTestSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@1774679]" name="setup" is-config="true" duration-ms="22766" started-at="2016-05-24T22:42:41Z" finished-at="2016-05-24T22:43:03Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@e45eb6]" name="setup" is-config="true" duration-ms="52516" started-at="2016-05-25T23:56:06Z" finished-at="2016-05-25T23:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checkAuthorName()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@1774679]" name="checkAuthorName" duration-ms="17422" started-at="2016-05-24T22:43:03Z" finished-at="2016-05-24T22:43:21Z">
+        <test-method status="PASS" signature="checkAuthorName(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@e45eb6]" name="checkAuthorName" duration-ms="56734" started-at="2016-05-25T23:56:59Z" finished-at="2016-05-25T23:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam Worthington]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[avatar.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[avatar]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAuthorName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@1774679]" name="tearDown" is-config="true" duration-ms="4656" started-at="2016-05-24T22:43:21Z" finished-at="2016-05-24T22:43:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:resultOfSearchTest.ActorNameTestSuite@e45eb6]" name="tearDown" is-config="true" duration-ms="1453" started-at="2016-05-25T23:57:55Z" finished-at="2016-05-25T23:57:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

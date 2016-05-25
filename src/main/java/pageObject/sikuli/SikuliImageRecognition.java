@@ -17,8 +17,8 @@ public class SikuliImageRecognition {
 		sRegion = new DesktopScreenRegion();
 	}
 	
-	public void clickOnImage(String imageName) {
-		File buttonPathFile = new File("src\\test\\resources\\images\\" + imageName);                
+	public void clickOnImage(String imagename) {
+		File buttonPathFile = new File("src\\test\\resources\\images\\" + imagename);                
 	    Target imageTarget = new ImageTarget(buttonPathFile);
 	    ScreenRegion r = sRegion.wait(imageTarget, 7000);
 	    Mouse mouse = new DesktopMouse();

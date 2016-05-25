@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Actor'sNameTest" verbose="1">
+	<test name="TestNameOfActor">
+		<parameter name="browserName" value="firefox" />
+		<parameter name="film" value="avatar"/>
+		<parameter name="actoravatar" value="avatar.png"/>
+		<parameter name="actorname" value="Sam Worthington"/>
+		<classes>
+			<class name="resultOfSearchTest.ActorNameTestSuite" />
+		</classes>
+	</test>
+</suite>
